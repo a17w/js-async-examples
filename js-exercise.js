@@ -1,22 +1,14 @@
-function firstTask() {
-  console.log("first task complete");
-}
+setTimeout(function() {
+  console.log("First task done!");
+} , 2000);
 
-function secondTask() {
-  console.log("second task complete");
-}
+setTimeout(function() {
+  console.log("Second task done!");
+}, 4000);
 
-function thirdTask() {
-  console.log("third task complete");
-}
-
-setTimeout(firstTask, 2000);
-secondTask();
-thirdTask();
-
-
-
-
+setTimeout(function() {
+  console.log("Third task done!");
+} , 6000);
 
 
 
